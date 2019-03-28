@@ -57,8 +57,8 @@ else
   echo -e "\033[41;37m請檢查系統配置需求，或聯繫作者。\033[0m"
   exit 1
 fi
-if [[ -d /etc/php/7.0/mods-available ]]; then
-  echo "找到 /etc/php/7.0/"
+if [[ -d /etc/php/7.2/mods-available ]]; then
+  echo "找到 /etc/php/7.2/"
 else
   echo -e "\033[41;37m在安裝 php-7.2 時出現問題。\033[0m"
   echo -e "\033[41;37m請檢查系統配置需求，或聯繫作者。\033[0m"
